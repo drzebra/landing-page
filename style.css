@@ -119,6 +119,39 @@
     margin: 0 auto;
 }
 
+.action {
+    display: flex;
+    margin: 100px;
+}
+
+.action_box {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 1000px;
+    padding: 40px;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+.action_strong {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.action_weak {
+    font-size: 18px;
+}
+
+.action_button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 8px;
+}
+
 ul {
     list-style-type: none;
 }
