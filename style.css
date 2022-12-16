@@ -26,6 +26,47 @@
     margin-top: 0;
 }
 
+.hero_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.hero_image {
+    display: flex;
+    width: 450px;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 6px;
+}
+
+.hero_button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 75px;
+    border-radius: 8px;
+    border: none;
+    padding: 4px;
+}
+
 ul {
     list-style-type: none;
 }
